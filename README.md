@@ -1,6 +1,12 @@
 Empirical Distribution Ordering Inference Framework (EDOIF)
 ===========================================================
-[![Travis CI build status](https://travis-ci.com/DarkEyes/EDOIF.svg?branch=master)](https://travis-ci.com/DarkEyes/EDOIF/)[![minimal R version](https://img.shields.io/badge/R%3E%3D-3.5.0-6666ff.svg)](https://cran.r-project.org/)[![License](https://img.shields.io/badge/License-BSD%203--Clause-orange.svg)](https://spdx.org/licenses/BSD-3-Clause.html)
+[![Travis CI build status](https://travis-ci.com/DarkEyes/EDOIF.svg?branch=master)](https://travis-ci.com/DarkEyes/EDOIF/)
+[![minimal R version](https://img.shields.io/badge/R%3E%3D-3.5.0-6666ff.svg)](https://cran.r-project.org/)
+[![CRAN Status Badge](https://www.r-pkg.org/badges/version-last-release/EDOIF)](https://cran.r-project.org/package=EDOIF)
+[![Download](https://cranlogs.r-pkg.org/badges/grand-total/EDOIF)](https://cran.r-project.org/package=EDOIF)
+[![arXiv](https://img.shields.io/badge/stat.ME-arXiv%3A1911.06723-B31B1B.svg)](https://arxiv.org/abs/1911.06723)
+[![](https://img.shields.io/badge/doi-10.1016%2Fj.heliyon.2020.e05435-yellow)](https://doi.org/10.1016/j.heliyon.2020.e05435 )
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-orange.svg)](https://spdx.org/licenses/BSD-3-Clause.html)
 
 Given a dataset of careers and incomes, how large a difference of income between any pair of careers would be? Given a dataset of travel time records, how long do we need to spend more when choosing a public transportation mode A instead of B to travel?  In this work, we developed a framework to solve these problems named "EDOIF".
 
@@ -12,7 +18,13 @@ EDOIF is a nonparametric  framework  based on  "Estimation Statistics" principle
 
 Installation
 ------------
-Please call the following command in R terminal.
+You can install our package from CRAN
+
+```r
+install.packages("EDOIF")
+```
+
+For the newest version on github, please call the following command in R terminal.
 
 ``` r
 remotes::install_github("DarkEyes/EDOIF")
@@ -128,9 +140,14 @@ Mean difference of Category5 (n=150) minus Category4 (n=150): Category4 ≺ Cate
 Mean Diff:20.890780 95CI:[ 19.079287,22.625807]
 
 ```
+For more examples, please see the vignettes in this <a href="https://cran.r-project.org/package=EDOIF"> link </a>.
+
 Citation
 ----------------------------------------------------------------------------------
-Chainarong Amornbunchornvej, Navaporn Surasvadi, Anon Plangprasopchok, and Suttipong Thajchayapong (2019). A nonparametric framework for inferring orders of categorical data from category-real ordered pairs. arXiv preprint arXiv:1911.06723. <a href="https://arxiv.org/abs/1911.06723">link</a>
+Amornbunchornvej, Chainarong, Navaporn Surasvadi, Anon Plangprasopchok, Suttipong Thajchayapong. 
+"A nonparametric framework for inferring orders of categorical data from category-real pairs."
+Heliyon 6, no. 11 (2020): e05435, ISSN 2405-8440,
+<a href="https://doi.org/10.1016/j.heliyon.2020.e05435">https://doi.org/10.1016/j.heliyon.2020.e05435.</a> <a href="https://arxiv.org/abs/1911.06723">arXiv</a>
 
 Contact
 ----------------------------------------------------------------------------------
